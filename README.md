@@ -6,7 +6,7 @@
 2. Then add bot to server from auth part.
 3. Give a permission to Discord bot (for load slash commands) `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=applications.commands`.
 4. Open the `config.json` configuration file and write your bot token.
-5. Open a new terminal from project folder then run `app.js` file.
+5. Open a new terminal from project folder then run `app.js` file. (Example run command: `node app.js`)
 
 # Type of Slash Command Options
 ```
