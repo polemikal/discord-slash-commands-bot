@@ -21,7 +21,7 @@ Bot.once("ready", async() => {
                 if(!Command.usages || !Command.usages.length) { 
                     reject("ERROR! Cannot load \'" + commandFile + "\' command file: Command usages not found!");
                 }
-                if(!Command.options || !Command.options.length) {
+                if(!Command.options || !Array.isArray(Command.options)) {
                     reject("ERROR! Cannot load \'" + commandFile + "\' command file: Command options is not set!");
                 }
 
