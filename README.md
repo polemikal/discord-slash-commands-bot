@@ -25,7 +25,7 @@ ROLE	                    8
 
  If you have anything stuck in your mind, you can clear your questions here: [Slash Command Docs](https://discord.com/developers/docs/interactions/slash-commands)
  
-# Contact
+# 📞 Contact
 
  **(!)** If there is something that can be added to this project or if you have found anything missing in this project, you can let us know and help us improve the project! [Let us know!](https://github.com/muratvastark/discord-slash-bot/issues)
  
