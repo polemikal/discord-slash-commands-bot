@@ -1,4 +1,4 @@
-# discord-slash-commands
+# discord-slash-commands-bot
  A great command handling feature for Discord servers!
  
 # Setup the Project
