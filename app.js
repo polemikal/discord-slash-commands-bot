@@ -78,7 +78,7 @@ Bot.hasPermission = function(member, permission) {
     return false;
 }
 
-Bot.say = async function(interaction, content) {
+Bot.send = async function(interaction, content) {
 	return Bot.api.interactions(interaction.id, interaction.token).callback.post({
 		data: {
 			type: 4,
