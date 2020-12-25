@@ -11,7 +11,7 @@
 # Type of Slash Command Options
 ```
 NAME	                VALUE
-SUB_COMMAND	            1  
+SUB_COMMAND	            1
 SUB_COMMAND_GROUP	    2
 STRING	                    3
 INTEGER	                    4
