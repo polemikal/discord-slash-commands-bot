@@ -30,7 +30,7 @@ class Say extends Command {
 
     async run(interaction, guild, member, args) {
 
-        return await this.Bot.say(interaction, args[0].value);
+        return await this.Bot.send(interaction, args[0].value);
 
     }
 
