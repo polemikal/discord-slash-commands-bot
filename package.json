@@ -13,6 +13,7 @@
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security",
     "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2"
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "^2.6.1"
   }
 }

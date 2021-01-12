@@ -1,23 +1,21 @@
 const Command = require("../../Utils/Command.js");
 
-class Say extends Command {
+class Write extends Command {
     
     constructor(Bot) {
 
         super(Bot, {
-            enabled: true,
+            enabled: true, 
             required_perm: "ADMINISTRATOR", // Required perm to use. (If you don't want to set this value, you can type "0" or delete it.)
-            usages: ["say"], // Command usages with aliases.
-            description: "Say command.", // Command description.
+            usages: ["write"], // Command usages with aliases.
+            description: "Write something with bot.", // Command description.
             category: "General", // Command category. (If you delete this option, the category is set as the name of the folder where the command file is located.)
-            options: [
-                {
-                    name: "Text",
-                    description: "Write something.",
-                    type: 3, // // 3 is type USER
-                    required: true
-                }
-            ] // All arguments options of command.
+            options: [{
+                name: "text",
+                description: "write a text.",
+                type: 3, // 6 is type USER
+                required: true
+            }] // All arguments options of command.
         });
 
     }
@@ -36,4 +34,4 @@ class Say extends Command {
 
 }
 
-module.exports = Say;
+module.exports = Write;
