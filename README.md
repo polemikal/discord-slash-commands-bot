@@ -1,14 +1,16 @@
 # discord-slash-commands-bot
  A great command handling feature for Discord servers!
  
-# Setup the Project
+ ![Image](https://cdn.discordapp.com/attachments/761343698641747999/807906122404593684/unknown.png)
+ 
+# 📋 Setup the Project
 1. Create a new application from [Discord Developer Portal](https://discord.com/developers/applications) and build a bot.
 2. Then add bot to server from auth part.
 3. Give a permission to Discord bot (for load slash commands) `https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=applications.commands`.
 4. Open the `config.json` configuration file and write your bot token.
 5. Open a new terminal from project folder then run `app.js` file. (Example run command: `node app.js`)
 
-# Type of Slash Command Options
+# ❓ Type of Slash Command Options
 ```
 NAME	                VALUE
 SUB_COMMAND	            1
@@ -21,11 +23,11 @@ CHANNEL	                    7
 ROLE	                    8
 ```
 
-# Documents for Slash Commands
+# 📜 Documents for Slash Commands
 
  If you have anything stuck in your mind, you can clear your questions here: [Slash Command Docs](https://discord.com/developers/docs/interactions/slash-commands)
  
-# Information
+# 📌 Information
 
  **(!)** If there is something that can be added to this project or if you have found anything missing in this project, you can let us know and help us improve the project! [Let us know!](https://github.com/polemikal/discord-slash-commands-bot/issues)
 
