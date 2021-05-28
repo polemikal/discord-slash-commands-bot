@@ -30,7 +30,7 @@ class Kick extends Command {
 
         const Target = guild.members.cache.get(args[0].value);
         if(!Target) return await this.Bot.say(`User not found!`);
-        if(!Target.kickable) return await this.Bot.say(`❌ You do not have a permission to kick this user!`);
+        if(!Target.kickable) return await this.Bot.send(`❌ You do not have a permission to kick this user!`);
 
         await Target.kick();
 
